@@ -1,7 +1,7 @@
 ---
+title: Blog
+permalink: "/blog/"
 layout: archive
-title: "Blog"
-permalink: /blog/
 ---
 
 ## This is the blog

@@ -1,7 +1,7 @@
 ---
+title: Contact
+permalink: "/contact/"
 layout: single
-title: "Contact"
-permalink: /contact/
 ---
 
 You can reach me at:
