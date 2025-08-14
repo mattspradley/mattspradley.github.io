@@ -1,10 +1,64 @@
----
-title: Mattspradley.Github.Io
-timezone: UTC
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
+# --- Basic Site Settings ---
+title: "Matt Spradley"
+subtitle: "A work in progress"
+name: "Matt Spradley"
+description: "A personal site hosted on GitHub Pages."
+url: "https://mattspradley.github.io"
+baseurl: "" # leave empty for personal site, "/repo-name" for project site
+
+# --- Theme & Appearance ---
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
+minimal_mistakes_skin: "default"  # Options: default, dark, dirt, neon, sunrise, etc.
+
+# --- Social Links ---
+author:
+  name: "Matt Spradley"
+  avatar: "/assets/images/profile.jpg"
+  bio: "Short bio here."
+  location: "City, Country"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/mattspradley"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://linkedin.com/in/mattspradley"
+
+# --- Navigation Menu ---
+main:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Blog"
+    url: /blog/
+  - title: "Contact"
+    url: /contact/
+
+# --- Layout & Features ---
+paginate: 5
+paginate_path: "/page:num/"
+
+# Enable features
+search: true
+comments:
+  provider: "false" # Options: disqus, utterances, etc.
+
+# --- Plugins (required for GitHub Pages) ---
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-include-cache
+
+# --- Defaults ---
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
