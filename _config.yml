@@ -1,14 +1,6 @@
 ---
 title: Matt Spradley
 timezone: America/Denver
-subtitle: Enjoying the journey
-name: Matt Spradley
-description: A personal site hosted on GitHub Pages.
-url: https://mattspradley.github.io
-baseurl: ''
-remote_theme: mmistakes/minimal-mistakes@4.27.3
-minimal_mistakes_skin: default
-search: true
 collections:
   posts:
     title: Posts
@@ -26,11 +18,21 @@ defaults:
     read_time: true
     comments: false
     share: true
+subtitle: Enjoying the journey
+name: Matt Spradley
+description: A personal site hosted on GitHub Pages.
+url: https://mattspradley.github.io
+baseurl: ''
+remote_theme: mmistakes/minimal-mistakes@4.27.3
+minimal_mistakes_skin: default
+search: true
 author:
   name: Matt Spradley
   avatar: "/assets/images/profile.jpg"
-  bio: |
-    Startup CTO & Platform Strategist, Scaled Engineering Orgs from Startup to Enterprise, SaaS, IoT & Healthtech Leader, Cloud & AI/ML Infrastructure Expert
+  bio: 'Startup CTO & Platform Strategist, Scaled Engineering Orgs from Startup to
+    Enterprise, SaaS, IoT & Healthtech Leader, Cloud & AI/ML Infrastructure Expert
+
+'
   location: Fort Collins, Colorado
   links:
   - label: GitHub
@@ -42,9 +44,9 @@ author:
 comments:
   provider: 'false'
 analytics:
-  provider: 'google-gtag'
+  provider: google-gtag
   google:
-    measurement_id: 'G-Z9HXKLWW4R'
+    measurement_id: G-Z9HXKLWW4R
 plugins:
 - jekyll-feed
 - jekyll-paginate
