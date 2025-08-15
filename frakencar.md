@@ -1,7 +1,7 @@
 ---
+title: Old Presentations
+permalink: "/old-presentations/"
 layout: single
-title: "Old Presentations"
-permalink: /old-presentations/
 ---
 
 ## Frakencar
