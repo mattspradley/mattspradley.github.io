@@ -3,7 +3,7 @@ title: About
 permalink: "/about/"
 layout: single
 header:
-  overlay_image: /assets/images/Matt-Spradley-Pencil-Header.jpg
+  overlay_image: "/assets/images/Matt-Spradley-Pencil-Header.jpg"
 ---
 
 Hi, I'm Matt Spradley. I have been married to Kelly Spradley for over 17 years. We have 3 fantastic kids; Parker, Tucker, and Jaque. I am currently working on my third company: Vignature.
