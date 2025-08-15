@@ -1,6 +1,14 @@
 ---
 title: Matt Spradley
 timezone: America/Denver
+subtitle: A work in progress
+name: Matt Spradley
+description: A personal site hosted on GitHub Pages.
+url: https://mattspradley.github.io
+baseurl: ''
+remote_theme: mmistakes/minimal-mistakes@4.27.3
+minimal_mistakes_skin: default
+search: true
 collections:
   posts:
     title: Posts
@@ -18,13 +26,6 @@ defaults:
     read_time: true
     comments: false
     share: true
-subtitle: A work in progress
-name: Matt Spradley
-description: A personal site hosted on GitHub Pages.
-url: https://mattspradley.github.io
-baseurl: ''
-remote_theme: mmistakes/minimal-mistakes@4.27.3
-minimal_mistakes_skin: default
 author:
   name: Matt Spradley
   avatar: "/assets/images/profile.jpg"
@@ -37,20 +38,12 @@ author:
   - label: LinkedIn
     icon: fab fa-linkedin
     url: https://linkedin.com/in/mattspradley
-main:
-- title: Home
-  url: "/"
-- title: About
-  url: "/about/"
-- title: Blog
-  url: "/blog/"
-- title: Contact
-  url: "/contact/"
-paginate: 5
-paginate_path: "/page:num/"
-search: true
 comments:
   provider: 'false'
+analytics:
+  provider: 'google-gtag'
+  google:
+    measurement_id: 'G-Z9HXKLWW4R'
 plugins:
 - jekyll-feed
 - jekyll-paginate
