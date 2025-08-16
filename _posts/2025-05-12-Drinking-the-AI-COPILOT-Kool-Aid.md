@@ -1,11 +1,9 @@
 ---
 title: "Drinking the AI CoPilot Kool-Aid"
 date: 2025-05-12 18:00:00 -06:00
-header:
-  teaser: /assets/images/profile.jpg
-excerpt: "Test Excerpt"
+#excerpt: "Test Excerpt"
 categories: [Blog]
-tags: [replit, first, frc]
+tags: [diy, first, frc]
 ---
 🚀 Drinking the AI CoPilot Kool-Aid - **Replit is Impressive!**
 

@@ -26,16 +26,16 @@ baseurl: ''
 include:
   - CNAME
 remote_theme: mmistakes/minimal-mistakes@4.27.3
-minimal_mistakes_skin: default
+minimal_mistakes_skin: air
 #search: true
-show_excerpts: true
+#show_excerpts: true
 show_teasers: true
 author:
   name: Matt Spradley
   avatar: "/assets/images/profile.jpg"
-  bio: 'Startup CTO & Platform Strategist, Scaled Engineering Orgs from Startup to
-    Enterprise, SaaS, IoT & Healthtech Leader, Cloud & AI/ML Infrastructure Expert
-
+  bio: 'Startup CTO and platform strategist who has scaled engineering organizations
+    from startup to enterprise. Leader in SaaS, IoT, and healthtech, and a cloud expert
+    trying to keep up in the fast-moving AI/ML landscape.
 '
   location: Fort Collins, Colorado
   links:

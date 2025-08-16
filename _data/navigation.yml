@@ -4,6 +4,8 @@ main:
 - title: About
   url: "/about/"
 - title: "Old Presentations"
-  url: /old-presentations/  
+  url: /old-presentations/
+- title: Resume
+  url: "/resume/" 
 - title: Contact
   url: "/contact/"
