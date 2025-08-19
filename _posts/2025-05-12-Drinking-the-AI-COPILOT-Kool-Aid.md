@@ -21,7 +21,7 @@ There were some tricky edge cases with how the championship data was structured.
 
 Replit helped me generate a full-featured app with caching, analytics, and a polished UI in the same amount of time it took me to build a clunky script.
 
-✅ **I’M SOLD**
+✅ **I’M SOLD** Here's a link to the [app](https://frc-event-to-championship-journey-mattspradley.replit.app/).
 
 That said, I’m still thinking about the implications for developers. This experience showed me that developers are still essential—for now. Understanding how the code works and being able to guide the AI is critical. But the way we build is changing fast.
 
